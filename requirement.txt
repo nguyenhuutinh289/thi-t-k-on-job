@@ -1,0 +1,20 @@
+﻿
+quản lý thông tin nhân viên (employee information management)
+- quản lý danh mục  chứng chỉ(ngoại ngữ ví dụ toeic ielts) (certificate)
+	+ danh mục(song ngữ)
+- danh mục theo dõi hồ sơ nhân viên đã nộp(có thể thêm 1 loại hồ sơ nào đó ở tương lai) (submited document) (không cần song ngữ)
+-  danh mục quản lý chức vụ (song ngữ) (có thể có nhiều chức vụ)
+- danh mục quản lý bằng cấp (song ngữ)(degree) (trung cấp, cao đẳng , đại học , thạc sĩ...)(lấy bằng cấp cao nhất)
+-danh mục quản lý specializition (song ngữ) (chuyên nghành)có thể none
+- danh mục quản lý dân tộc(ethic)
+- nơi cấp thẻ chứng minh nhân dân (id issue place)
+- quốc gia (country)
+-  tỉnh/thành phố(province)
+- quản lý thông tin nhân viên (employee informatiton)
+	+ id là string
+	+ lastname , firstname,gender,bidthday,email,Idnumber,img
+
+1 nhân viên có thể có nhiều certificate
+1 nhân viên có nhiều hồ sơ đã nộp
+1 nhân viên có 1 hoặc nhiều chuyên nghành
+1 nhân viên có 1 nơi cấp cmnd và 1 country và 1 province
